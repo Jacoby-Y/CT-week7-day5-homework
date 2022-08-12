@@ -2,4 +2,4 @@
 
 ###### CT-week7-day5-homework
 
-### Check out website [here](https://example.com/)
+### Check out website [here](https://ct-weather-app.vercel.app/)
