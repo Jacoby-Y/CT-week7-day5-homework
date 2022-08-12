@@ -1,5 +1,34 @@
+#loading {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.App main {
+  height: 100%;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-wrapper, .card {
+  height: 100%;
+  width: 300px;
+}
+.card .card-text {
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+}
+
+body {
+  background-color: #282c34;
+}
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr;
 }
 
 .App-logo {
@@ -14,12 +43,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
